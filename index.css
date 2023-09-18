@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.inner-outer{
+
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-vector/line-style-memphis-abstract-background_1017-33617.jpg?size=626&ext=jpg&uid=R94032636&ga=GA1.2.630643743.1694861145&semt=ais);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+    .inner-wrapper{
+        width:80%;
+        height: 80%;
+        background-color: rgb(255, 255, 255,0.6);
+        border-radius: 25px;
+        
+    }
+
+.inner-heading{
+display: flex;
+width: auto;
+height: 50px;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 255, 255,0.8);
+
+margin: 5px;
+overflow:auto;
+border-radius: 25px;
+}
+.inner-heading>h1{
+    font-size: 20px;
+    font-family: 'Lobster', 'cursive';
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.controller-inner{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controller-item{
+    flex: 1;
+  
+   margin: 5px;
+   border-radius: 25px;
+   overflow: hidden;
+   height: 100%;
+}
+
+.item{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    background-color: rgb(255, 255, 255,0.8); 
+    border-radius: inherit;
+    height: 50px;
+    overflow: hidden;
+}
+
+.form-control{
+    height: inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.play-area{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    flex: 1;
+    background-color: rgb(255, 255, 255,0.8);
+    border-radius: 25px;
+    width: auto;
+    margin:20px 5px;
+    height: 50%;
+
+}
+.button-area{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+
+
+
+
+  
